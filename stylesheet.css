@@ -1,76 +1,12 @@
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
 a {
-  color: #1772d0;
+  color: #2f6ea5;
   text-decoration: none;
+  transition: color 0.15s ease;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: #1f4f79;
   text-decoration: none;
 }
 
@@ -80,29 +16,41 @@ th,
 tr,
 p,
 a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+body {
+  color: #303740;
+  background: #f7f8fa;
 }
 
 strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 14px;
+  font-weight: 700;
 }
 
 heading {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #242a31;
+  letter-spacing: -0.01em;
 }
 
 papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 14px;
-  font-weight: 700
+  font-weight: 700;
 }
 
 name {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+  color: #20262d;
+  letter-spacing: -0.02em;
 }
 
 .one {
@@ -129,3 +77,206 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* Page-specific layout */
+html,
+    body {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: #f7f8fa;
+    }
+
+    body {
+      box-sizing: border-box;
+    }
+
+    .page-shell {
+      width: 100%;
+      max-width: 860px;
+      height: 100vh;
+      margin: 0 auto;
+      padding: 28px 34px 22px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .name-row {
+      text-align: center;
+    }
+
+    .intro {
+      flex: 0 0 auto;
+      padding-bottom: 12px;
+    }
+
+    .intro p {
+      margin-top: 0.65em;
+      margin-bottom: 0.65em;
+      line-height: 1.55;
+    }
+
+    .publications-section {
+      min-height: 0;
+      flex: 1 1 auto;
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+    }
+
+    .publications-heading {
+      flex: 0 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 2px 0 8px 0;
+    }
+
+    .scroll-hint {
+      font-size: 11px;
+      color: #8a94a3;
+      letter-spacing: 0.02em;
+    }
+
+    .publications-scroll-wrap {
+      position: relative;
+      flex: 1 1 auto;
+      min-height: 0;
+    }
+
+    .publications-scroll {
+      height: 100%;
+      min-height: 0;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      -webkit-overflow-scrolling: touch;
+      border: 1px solid #e2e7ee;
+      border-radius: 12px;
+      padding: 16px 18px 16px 16px;
+      box-sizing: border-box;
+      scrollbar-gutter: stable;
+      scrollbar-width: none;
+      background: #ffffff;
+      box-shadow: 0 6px 24px rgba(22, 34, 51, 0.055);
+    }
+
+    .publication-year {
+      margin: 16px 0 7px 0;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #edf0f4;
+      font-size: 15px;
+      font-weight: 700;
+      color: #2f3742;
+      letter-spacing: 0.01em;
+    }
+
+    .publication-year:first-child {
+      margin-top: 0;
+    }
+
+    .publication-list {
+      margin: 0;
+      padding-left: 24px;
+    }
+
+    .publication-list li {
+      margin: 0 0 11px 0;
+      padding-left: 2px;
+      line-height: 1.48;
+      color: #3a414a;
+    }
+
+    .publication-type {
+      display: inline-block;
+      margin-left: 6px;
+      margin-right: 6px;
+      padding: 2px 8px;
+      border: 1px solid #dce3eb;
+      border-radius: 999px;
+      background: #f7f9fb;
+      color: #5e6a78;
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1.45;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      white-space: nowrap;
+      vertical-align: baseline;
+    }
+
+    .publications-scroll::-webkit-scrollbar {
+      display: none;
+    }
+
+    .scrollbar-track {
+      position: absolute;
+      top: 10px;
+      right: 5px;
+      bottom: 10px;
+      width: 7px;
+      border-radius: 999px;
+      background: #edf1f5;
+      pointer-events: none;
+      z-index: 3;
+    }
+
+    .scrollbar-thumb {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 7px;
+      min-height: 34px;
+      border-radius: 999px;
+      background: #aab4c1;
+      opacity: 1;
+      pointer-events: none;
+    }
+
+    .footer {
+      flex: 0 0 auto;
+      padding-top: 9px;
+      text-align: right;
+      color: #89929e;
+    }
+
+    .footer p {
+      margin: 0;
+      font-size: 11px;
+      line-height: 1.35;
+    }
+
+    @media (max-width: 700px) {
+      .page-shell {
+        padding: 20px 18px 16px;
+      }
+    }
+
+    @media (max-height: 650px) {
+      .page-shell {
+        padding-top: 16px;
+        padding-bottom: 14px;
+      }
+
+      .intro {
+        padding-bottom: 6px;
+      }
+
+      .intro p {
+        margin-top: 0.4em;
+        margin-bottom: 0.4em;
+      }
+
+      name {
+        font-size: 28px;
+      }
+
+      .publications-heading {
+        margin-bottom: 5px;
+      }
+
+      .footer {
+        padding-top: 5px;
+      }
+    }
