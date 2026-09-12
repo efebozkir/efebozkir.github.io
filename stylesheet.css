@@ -95,8 +95,10 @@ html,
       width: 100%;
       max-width: 860px;
       height: 100vh;
+  height: 100svh;
+  height: 100dvh;
       margin: 0 auto;
-      padding: 28px 34px 22px;
+      padding: 28px 34px calc(22px + env(safe-area-inset-bottom));
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
@@ -249,7 +251,7 @@ html,
 
     @media (max-width: 700px) {
       .page-shell {
-        padding: 20px 18px 16px;
+        padding: 20px 18px calc(16px + env(safe-area-inset-bottom));
       }
     }
 
